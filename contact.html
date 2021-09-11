@@ -6,6 +6,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,
 initial-scale=1.0"/>
+<link rel="stylesheet" href="diamond.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" href="images/logo3.png" />
 </head>
@@ -13,53 +14,38 @@ initial-scale=1.0"/>
 
 <body>
 
-<table background="images/banner2.jpeg" width="100%" height="200px" cellpadding="0px">
-<tr>
-<td>
-<iframe src="navigation.html" frameborder="0px" width="100%" height="70px"scrolling="no"> </iframe>
-</td>
-</tr>
-
-<tr>
-<td>  
-
-<div align="center">
-<table>
-
-<tr>
-<td> <font color="white" size="20px">Diamond planning </font></td>
-</tr>
-
-<tr>
-<td> <font color="white"><i><b>....where standard events projects are professionally executed</b></i></font></td>
-</tr>
-
-</table>
-
-</div>
-</td>
-
-</tr>
-
-</table>
-
-<div align="center">
-<table>
-<tr>
-
-<td> <font color="" size="+4"> Reach out to us </font> </td>
-
-</tr>
-</table>
+<!-- navigation bar-->
+<div class="navbar"> 
+ <a href="index.html" target="_parent">Home</a> 
+ <a href="services.html" target="_parent">Services</a> 
+ <a href="blog.html" target="_parent">Blog</a> 
+ <a href="contact.html" target="_parent">Connect with us</a> 
 </div>
 
+<!-- static banner section -->
+
+<div class="static_banner">
+<div class="overlay">
+CONTACT SECTION
+</div>
+
+</div>
+
+<!-- end of static banner section -->
+
+
 <div align="center">
-<table width="80%" border="0" cellspacing="7px">
-<tr>
 
-<td width="35%" align="center"> <p style="color:purple; font-size:2em;"> Contact</p>
+Reach out to Us
 
-<ol style="list-style-type:none; text-align:center;">
+</div>
+
+<div class="services_details">
+
+<!-- first row of the service details section -->
+<div class="service_1">
+ 
+ <ol style="list-style-type:none; text-align:center;">
 <li style="padding:10px;"> 
 <i class="fa fa-address-book-o" style="font-size:30px; color:purple;"></i> House 3b, 21 Road, Festac town, Lagos</br> Nigeria </li>
 <li style="padding:10px;">
@@ -67,51 +53,55 @@ initial-scale=1.0"/>
 <li style="padding:10px;">
 <i class="fa fa-envelope" style="font-size:30px; color:purple;"></i>  diamondplanning@yahoo.com </li>
 </ol>
-
- </td>
-
-<td width="35%" align="center">
-<img src="images/lunch2.jpg" width="90%" height="250px" alt="lunch party">
-</td>
-
-
-</tr>
-
-</table>
+ 
 </div>
 
-<table  width="100%" height="200px" style="border-top:2px solid purple;">
-</tr>
-<tr align="center">
+<div class="simage_1">
+<img src="images/lunch1.jpg"  alt="lunch image">
+</div>
+
+<!-- end of the first row -->
 
 
-<!-- form section of the table -->
+</div>
 
-<td>
-<p style="font-size:1.4em;">Convincing customer feedback</p> 
+
+
+<!-- GOOGLE MAP BEGINS HERE -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7926.980987588668!2d3.363888!3d6.585787!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b936bf5d40673%3A0x83dc45595250a196!2sPresken%20Hotels%20%40%20Opebi%2C%20Lagos.!5e0!3m2!1sen!2sng!4v1630757577117!5m2!1sen!2sng" 
+width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<!-- GOOGLE MAP ENDS HERE -->
+
+
+<div class="pre_footer">
+
+<div class ="outro_1">
+<p style="font-size:1.4em;">Convincing customer feedback</p>
+
 <p> ...got to know about Diamond planning through a friend, i was skeptical at first 
 but after i allowed them a trial for a mini job, i have entrusted all my events
 projects to their expert care...Esther Oleka...
- </p>
- 
- <p> ...got to know about Diamond planning through a friend, i was skeptical at first 
+ <hr>
+ ...got to know about Diamond planning through a friend, i was skeptical at first 
 but after i allowed them a trial for a mini job, i have entrusted all my events
 projects to their expert care...David Udom...
  </p>
+</div>
 
-</td>
 
-<td width="25%">
+<!-- form section of the table -->
+<div class="outro_2">
 <p>Sign up here for Updates</p>
 <form>
 <input type="email" placeholder="enter your email">
-<input type="submit" value="send update">
+<input type="submit" value="Get update">
 </form>
 
-</td>
+</div>
 
 
-<td width="25%"> 
+<div class="outro_3"> 
 <p style="font-size:1.4em;">More information</p> 
 <ol style="list-style-type:none; text-align:left; font-size:1.2em;">
 <li> <a href="services.html" style="text-decoration:none;" target="_blank" >Reservations </a></li>
@@ -119,49 +109,40 @@ projects to their expert care...David Udom...
 <li> <a href="contact.html" style="text-decoration:none;" target="_blank">Locations</li>
 <li> <a href="contact.html" style="text-decoration:none;" target="_blank">Contact</li>
 </ol>
-</td>
+</div>
+
 <!-- put social media image links in this section -->
-<td width="25%">
+<div class ="outro_4">
 <p> <img src="images/logo3.png" alt="logo" width="100px" height="150px" /> </p>
 <p style="font-size:1.4em;">Connect with us</p>
 
 <p >
-<a href="www.facebook.com" style="text-decoration:none;"><font size="+2" > <img src="images/fb2.png" width="40px" height="40px">
-</a>
+<a href="www.facebook.com" style="text-decoration:none;"><img src="images/fb2.png" /></a>
 
-<a href="www.instagram.com" style="text-decoration:none;"><font size="+2"> <img src="images/ig2.png" width="40px" height="40px">
-</a> 
-<a href="www.linkedin.com" style="text-decoration:none;"><font size="+2"> <img src="images/linkedin2.jpg" width="40px" height="40px">
-</a> 
-<a href="www.youtube.com" style="text-decoration:none;"><font size="+2"> <img src="images/youtube1.png" width="40px" height="40px">
-</a>
+<a href="www.instagram.com" style="text-decoration:none;"><img src="images/ig2.png" /></a> 
+
+<a href="www.linkedin.com" style="text-decoration:none;"><img src="images/linkedin2.jpg" /></a>
+ 
+<a href="www.youtube.com" style="text-decoration:none;"><img src="images/youtube1.png" /></a>
 </p>
-</td>
+</div>
 <!-- end of social media links -->
 
-
-</tr>
-
-</table>
+</div>
 
 
 
-<table bgcolor="purple" width="100%" >
-<tr>
-<td align="center"> 
-
-<p> 
+<div class="footer">
 
 <a href="" style="text-decoration:none; color:white;">Privacy Policy<a> |
 <a href="" style="text-decoration:none; color:white;">Terms & Conditions<a> |
  <a href="" style="text-decoration:none; color:white;">Map locations<a>
-</p>
 
 <p style="color:white;"> copy right policy 2021</p>
-</td>
 
-</tr>
-</table>
+
+</div>
+
 
 </body>
 
