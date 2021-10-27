@@ -26,8 +26,15 @@ body {margin:0px; padding:0px;}
 
 /*carousel iframe with a top margin*/
 .cf {
-	margin:5px 0px 0px 0px;
+	margin-top:5px 0px 0px 0px;
 }
+
+.intro_title{
+	margin:0px 0px 0px 0px;
+	background-color:;
+}
+
+
 
 /*Image services section */
 .row {  
@@ -40,6 +47,7 @@ body {margin:0px; padding:0px;}
   flex: 25%;
   background-color:;
   padding:0px;
+  
 }
 .section_2 {
   flex: 25%;
@@ -61,6 +69,8 @@ body {margin:0px; padding:0px;}
 	width:95%;
 	margin: 0px 0px 0px 10px;
 	height:200px;
+	/*shape-outside:circle();
+	clip-path:circle();*/
 }
 
 .row p {
@@ -139,7 +149,7 @@ body {margin:0px; padding:0px;}
 /*SERVICES SECTION STYLING*/
 
 .static_banner {
-	background:url('');
+	background:url('images/catering2.jpg');
 	background-size:cover;
 	position:;
 	margin: ; padding: ;
@@ -148,9 +158,10 @@ body {margin:0px; padding:0px;}
 }
 
 .static_banner .overlay {
-	background:rgba(92, 92, 61, 0.4);
+	background:rgba(92, 92, 61, 0.6);
 	width:100%;
 	height:200px;
+	color:white;
 }
 
 .services_details {  
@@ -188,12 +199,12 @@ body {margin:0px; padding:0px;}
   flex: 40%;
   background-color:;
   padding:0px;
-  margin-right:10%;
+  margin-left:10%;
 }
 .simage_2 {
   flex:40%;
   background-color:;
   padding:0px;
-  margin-left:10%;
+  margin-right:10%;
 }
 
